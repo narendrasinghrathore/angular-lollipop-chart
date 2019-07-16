@@ -25,12 +25,16 @@
             "aot": false,
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/js/g3-lollipop.js"
             ],
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/d3/dist/d3.js",
+              "src/js/g3-lollipop.js"
+            ]
           },
           "configurations": {
             "production": {
