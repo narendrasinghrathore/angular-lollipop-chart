@@ -1,6 +1,5 @@
 import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
-declare const g3: any;
-// import * as g3 from 'g3';
+
 @Component({
   selector: 'app-chart',
   templateUrl: './chart.component.html',
